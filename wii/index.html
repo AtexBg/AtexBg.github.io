@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story of an abused Wii</title>
+
+    <style>
+    	body {
+        	font-family: sans-serif;
+        	line-height: 1.6;
+        	width: 100%;
+        	max-width: 650px;
+        	margin: 40px auto;
+        	padding: 0 10px;
+        	color: #666; /*evil number ahhh >:3*/
+        	background-color: #000;
+    	}
+    	.a1 {
+     		color: #Bde2ff;
+     	}
+      .a2{
+      		color: #9dc2fa;
+      	}
+       img {
+        max-width: 100%;
+          height: auto;
+       }
+
+    </style>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<h1 class="a1">The Wii who have seen many things</h1>
+		<h6>AKA the story of an abused wii</h6>
+</head>
+
+<body>
+		<!-- all this website's HTML code have been generated using articifial inte... nahh just kidding i wrote it with markdown and used https://markdowntohtml.com/ and cleaned the output a bit-->
+		<h2 class="a2">The beggining</h2>
+			<p>My Wii, she was just a normal Nintendo&trade; console at first, we got it in 2016 with my brother, spent countless hours playing WiiSports and MarioKartWii on it, and basically everyone in my family played with that specific console unit at least once, until...</p>
+			<p>...a few years later, i had grew up, nobody was actually playing the Wii anymore, expect me with my nephew when he was coming home sometimes, and also some random weekends when i was trying homebrew stuff on it.</p>
+			<p>Some time later, i got that Wii and my parent&#39;s CRT TV in my room so i was spening hours testing homebrew, playing <em>legally owned</em> games, etc... i was only 13 back then and didn&#39;t have that much technical knowledge so i was just enjoying :D</p>
+			<p>But one day, i heard about <a href="https://wiibrew.org/wiki/Wii-Linux">Linux on the Wii</a> (not the modern mainline kernel builds, some old Debian 5 port): i started doing random stuff on it, exploring the hardware limitations, and it was pretty limited but i liked it!</p>
+
+		<h2 class="a2">Where the dumb ideas started:</h2>
+			<p>I&#39;ve seen <a href="https://www.youtube.com/watch?v=J-PE75g1iHs">this video</a> of someone actually getting Windows XP running on a Wii all the way back in 2012, so i thought i might push the idea even further...</p>
+			<p>So i thought</p>
+			<blockquote>
+				<p>"wait Windows XP can boot on a Wii though a virtual machine, why not trying a more modern version... yknow what fuck it i will try every version of windows :O"</p>
+			</blockquote>
+		<h5>(You can check <a href="https://www.reddit.com/r/WiiHacks/s/Gpbeqmqui9">my reddit post</a> as a proof that it actually kinda worked)</h5>
+
+		<img src="images/windowsxp.png" width="640"></img>
+		<h6>(and yes this is the real x86 WinXP kernel being emulated, not a screenshot or some random bullshi)</h6>
+		<h2 class="a2">It&#39;s getting technical</h2>
+			<p>Then i did what i had to do: installed the QEMU virtual machine thing (this being slow asf with the Wii&#39;s wifi), launched it (the <code>qemu-system-x86_64</code> executable to be exact) with a <strong>WindowsXP 32-bit ISO</strong>, a blank disk image (i dont remember the size lol) and <strong>44 MEGABYTES</strong> of RAM allocated (i couldn&#39;t do more, 45MB was crashing)... well it worked anyways! :P</p>
+			<p>It booted to the WinXP setup screen, took <strong>ALMOST 40 FUCKING HOURS</strong> to install (ofc with this slow SD card, i had to let it run over night, twice!) and then somehow got to the desktop and it took me 30 minutes to just open the task manager lmao</p>
+		<h2 class="a2">But i didn&#39;t stopped here</h2>
+			<p>I wanted to try the same process with every version of windows (and some other OSes as you will see in a later section) and if you already looked at my reddit post i previously mentionned you know how it went, so i tried every ISO i had, and here&#39;s some of the results:</p>
+		<img src="images/stats.png" width="640"></img>
+
+		<h2 class="a2">Some quotes of me and my friends</h2>
+		<section>
+	            <img src="quotes/me.png" width="320" ></img>
+	            <img src="quotes/ari.png" width="320" ></img>
+	            <img src="quotes/msthree.png" width="320"></img>
+	            <img src="quotes/wii.png" width="320"></img>
+	        </section>
+
+		<h2 class="a2">Every OS i tried</h2>
+		<p>This is a list of every operating system i actually got booting (and somewhat running!) on my Wii, either through emulation, native port, dosbox, or whatever shi i got on wii</p>
+		<ul>
+			<li>Windows 1.0/2.0/3.1</li>
+			<li>Windows 95 and 98</li>
+			<li>Windows XP/ME/2000/Vista</li>
+			<li>Windows NT4 (via a <a href="https://github.com/Wack0/entii-for-workcubes">native PPC port</a>)</li>
+			<li>Windows Server 2003</li>
+			<li>Windows 7/8/8.1/10/11</li>
+			<li><a href="http://www.gc-linux.org/">Debian 5</a>  (xfce4)</li>
+			<li><a href="https://github.com/Wiibuntu/Ubuntu14-Wii">Ubuntu 14.04.5</a></li>
+			<li><a href="https://archlinuxpower.org/">Arch Linux</a> (my beloved :3)</li>
+			<li><a href="https://en.wikipedia.org/wiki/TempleOS">TempleOS</a></li>
+			<li><a href="https://github.com/FeltMacaroon389/Feltix">FeltixOS</a></li>
+		</ul>
+			<h6>and yes, i WILL try with Windows 12 if it ever releases...</h6>
+</body>

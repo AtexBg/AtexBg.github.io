@@ -1,0 +1,31 @@
+# How my PC became a wooden box:
+
+###### Note: all the dates mentionned in this article are in the DD/MM/YYYY format.
+  ## It all started with...
+...a few PC components i had, some CPU/motherboard/PSU i had found on the trash, a RAM stick i got from a friend, an hard drive found on an old laptop, etc... yknow just some random components i found and managed to make a working PC from :D
+
+  ## Wait... why is it wood?
+That's the thing, i had some old wood boxes my dad gave me (they were originally used to store wine bottles), and i once was like "uhmm i should make a PC with my components but i dont have any case, yknow what this box should do the trick!", and then i started working on it
+
+//insert image of first occurence
+
+at first it was just a funny idea i had, because i like computers and i like working with wood so i wanted to combine both, so i worked on that PC for some time
+
+  ## The day it actually became useful
+In this sad day that is June 17 2026, my laptop (a modern ASUS Experbook which was my only other computer) died: some metal scraps went inside and touched the motherboard, frying something along the way. i tried fixing it with the very limited tools and knowledge i have but couldn't do it, as today this laptop is still sitting in a drawer...
+...so what was my solution for my dead laptop? Just using my wooden PC of course! :P
+
+So i set it up, used a USB 2.0 stick with Linux Mint on it as my main drive for some time because i didn't have an HDD back then, and also learning how to do stuff without a mouse because i only had a keyboard (which then broke, letting me with no solution lol)
+
+  ## How it evolved?
+Pretty well actually! In just 2 months i got 16GB of DDR3 RAM that a friend sold me for 10€ (~11.13$, and its the only thing on my PC i actualy paid for), an old GeForce GT 520 graphics card from a broken desktop PC, a proper hard drive, and some tools my dad gave me to help making the wooden case!
+ 
+  ## More detailed specs, you might ask?
+Here they are! -# i use arch btw :3
+//insert output of hyfetch command in terminal image 
+
+For the things that aren't listed on the image, the hard drive is a 1TB Toshiba laptop HDD, the power supply is a basic 300W PSU (with its electronics heavily modified so it can fit on the wooden case), and for the peripherals its just basic office keyboard and mouse
+###### also little fun fact: since this PC doesnt have Wifi and i cant plug it to my router via cable i actually have a RaspberryPi (powered by the motherboard's USB) which is plugged to it via Ethernet and acts as a router/"wifi fowarder" lol
+
+  ## Take a look at this beauty!:
+Here's some pictures of my PC "setup" (if i can call it this way lmao) :
